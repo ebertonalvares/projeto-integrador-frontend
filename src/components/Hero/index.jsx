@@ -7,7 +7,7 @@ export default function Hero() {
             <div id="container">
                 <div id="card">
                     <h1>Nail Designer</h1>
-                    <Link to={"/agendamento"}> <span id="call-to-action">Agendar Horário</span></Link>
+                    <Link id="call-to-action" to={"/agendamento"}><a>Agendar Horário</a></Link>
                 </div>
             </div>
         </section>

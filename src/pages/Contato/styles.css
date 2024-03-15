@@ -1,0 +1,82 @@
+#contato {
+    width: 100%;
+    height: 95vh;
+    background: #feefee;
+   
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;  
+    background: url("../../assets/hero.jpg") no-repeat center center fixed !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#card {
+    height: 100%;
+    flex: 1;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#card2 {
+    flex: 1;
+    margin: 5px;
+}
+#agendamento{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 20px 30px 20px 30px 40px 40px ;
+    row-gap: 5px;
+    justify-items: center;
+    
+}
+#agendamento>label{
+    color: #3b3939;
+    justify-items: center;
+}
+
+.input{
+    width: 70%;
+    height: 90%;
+    border: none;
+    border-radius: 8px; 
+}
+
+.button{
+    width: 60%;
+    height: 90%;
+    border-radius: 8px;
+    border: 1px solid;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.button-agendar{
+    background: #25D366;
+    
+}
+.button-agendar>a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: #00ff5e;
+}
+h1{
+    color: #000000;
+    border-color: #ffffff;
+    
+}
